@@ -5,3 +5,5 @@
 * npm
 * Node js
 * liquid
+
+https://github.com/Shopify/starter-theme
