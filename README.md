@@ -8,7 +8,10 @@
 
 [Reference](https://github.com/Shopify/starter-theme)
 
-Features.
+**Themes** – (https://themes.shopify.com/)
+**Plugins** – (https://apps.shopify.com/)
+
+**Features // Dashboard.**
 * Online Store: Our drag-and-drop store builder lets merchants set up their store in minutes
 * Shopify POS: Merchants with physical stores can use our POS system to easily sell their products and accept payments on any device
 * Buy button: The Shopify Buy Button lets merchants sell on any website outside of Shopify
