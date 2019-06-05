@@ -9,6 +9,7 @@
 [Reference](https://github.com/Shopify/starter-theme)
 
 **Themes** – (https://themes.shopify.com/)
+
 **Plugins** – (https://apps.shopify.com/)
 
 **Features // Dashboard.**
