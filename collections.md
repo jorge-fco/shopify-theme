@@ -1,7 +1,8 @@
-### Collections
+# Collections
 
 
-Listado de colecciones.
+### Listado de colecciones.
+Folder /**sections**
 ```
 list-collections-template.liquid
 ```
