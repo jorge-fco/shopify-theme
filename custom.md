@@ -4,6 +4,10 @@
 * 3.- Add cdn CSS
 * 4.- Add cdn JS
 
+### Config
+- Title shop.
+- Description shop.
+- Add Favicon.
 
 ### JavaScript
 ```javascript
