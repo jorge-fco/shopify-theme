@@ -8,6 +8,7 @@ list-collections-template.liquid
 ```
 
 Item collection list.
+
 Folder **include**
 ```
 collection-grid-item.liquid
