@@ -8,6 +8,7 @@
 - Title shop.
 - Description shop.
 - Add Favicon.
+- Add _url's_ social media.
 
 ### JavaScript
 ```javascript
