@@ -1,6 +1,16 @@
 # Collections
 
+### Object
+Title
+```html
+<h4>{{ collection.title }}</h4>
+```
 
+Image.
+```html
+<img  itemprop="image" alt="{{shop.url}}" class="lazyload" data-src="{{ collection.image | img_url: '800x800' }}">
+```
+ 
 ### Listado de colecciones.
 Folder /**sections**
 ```
