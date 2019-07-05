@@ -4,6 +4,7 @@
 Title
 ```html
 <h4>{{ collection.title }}</h4>
+<p>{{ collection.description }}</p>
 ```
 
 Image.
