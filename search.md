@@ -1,5 +1,6 @@
-Form serarch
+# Search.
 
+**Form serarch**
 ```html
 <section class="footer__search">
   <div class="container">
@@ -11,6 +12,7 @@ Form serarch
 </section>
 ```
 
+**Result**
 ```html
 {% if search.performed %}
   <p>Resultados de la búsqueda para <span>"{{search.terms}}"</span> – Total (<span>{{search.results_count}}</span>)</p>
