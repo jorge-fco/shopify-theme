@@ -10,3 +10,13 @@ Form serarch
   </div>
 </section>
 ```
+
+```html
+{% if search.performed %}
+  <p>Resultados de la búsqueda para <span>"{{search.terms}}"</span> – Total (<span>{{search.results_count}}</span>)</p>
+{% else %}
+  <p>Comienza a realizar una búsqueda de un producto.</p>	
+{% endif %}
+```
+
+
