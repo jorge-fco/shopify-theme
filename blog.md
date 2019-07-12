@@ -19,3 +19,7 @@
   {% endif %}
 {% endfor %}
 ```
+
+# Article.
+```
+{{ article.content }}
