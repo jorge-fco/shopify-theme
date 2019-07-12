@@ -9,7 +9,7 @@
 ```
 
 **Odd and pairs**
-```
+```liquid
 {% for item in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
   {% if thecycle == 'odd' %}
