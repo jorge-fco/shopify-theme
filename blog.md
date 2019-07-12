@@ -47,3 +47,10 @@
 ```
 {{ article.content }}
 ```
+
+**Comments.**
+```
+{% for comment in article.comments %}
+  {% include 'comment' %}
+{% endfor %}
+```
