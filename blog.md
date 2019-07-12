@@ -21,19 +21,20 @@
 ```
 
 # Article.
-Title.
+
+**Title.**
 ```
 <h1>{{ article.title }}</h1>
 ```
 
-Author.
+**Author.**
 ```
 {% if section.settings.blog_show_author %}
     <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
 {% endif %}
 ```
 
-Date.
+**Date.**
 ```
 {% if section.settings.blog_show_date %}
     <span class="article__date">
@@ -42,7 +43,7 @@ Date.
 {% endif %}
 ```
 
-Text.
+**Text.**
 ```
 {{ article.content }}
 ```
