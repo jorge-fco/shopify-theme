@@ -21,5 +21,28 @@
 ```
 
 # Article.
+Title.
+```
+<h1>{{ article.title }}</h1>
+```
+
+Author.
+```
+{% if section.settings.blog_show_author %}
+    <span class="article__author">{{ 'blogs.article.by_author' | t: author: article.author }}</span>
+{% endif %}
+```
+
+Date.
+```
+{% if section.settings.blog_show_date %}
+    <span class="article__date">
+      {{ article.published_at | time_tag: format: 'date' }}
+    </span>
+{% endif %}
+```
+
+Text.
 ```
 {{ article.content }}
+```
