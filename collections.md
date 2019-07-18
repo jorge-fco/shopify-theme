@@ -14,6 +14,7 @@ Image.
  
 ### Listado de colecciones.
 
+**Products collection**
 ```html
 {% for product in collection.products %}
 <article>
@@ -23,10 +24,11 @@ Image.
 {% endfor %}
 ```
 
+**Thumb image**
 ```html
 {% for image in product.images limit: 1%}
   <div class="thumb">
-		  <img data-src="{{ image.src | img_url: '1024x' }}" alt="{{product.title}} : {{shop.name}}" class="lazyload">
+    <img data-src="{{ image.src | img_url: '1024x' }}" alt="{{product.title}} : {{shop.name}}" class="lazyload">
   </div>
 {% endfor %}
 ```
