@@ -13,9 +13,14 @@ Image.
 ```
  
 ### Listado de colecciones.
-
+```
 {% for product in collection.products %}
+<article>
+  <h4>{{product.title}}</h4>
+  <a href="{{product.url}}">Ver</a>
+</article>
 {% endfor %}
+```
 
 Folder /**sections**
 ```
