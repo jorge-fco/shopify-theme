@@ -13,6 +13,10 @@ Image.
 ```
  
 ### Listado de colecciones.
+
+{% for product in collection.products %}
+{% endfor %}
+
 Folder /**sections**
 ```
 list-collections-template.liquid
