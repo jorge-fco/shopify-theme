@@ -13,12 +13,21 @@ Image.
 ```
  
 ### Listado de colecciones.
-```
+
+```html
 {% for product in collection.products %}
 <article>
   <h4>{{product.title}}</h4>
   <a href="{{product.url}}">Ver</a>
 </article>
+{% endfor %}
+```
+
+```html
+{% for image in product.images limit: 1%}
+  <div class="thumb">
+		  <img data-src="{{ image.src | img_url: '1024x' }}" alt="{{product.title}} : {{shop.name}}" class="lazyload">
+  </div>
 {% endfor %}
 ```
 
