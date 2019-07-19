@@ -6,7 +6,7 @@ For.
 
 Limit.
 ```html
-{% for product in collection.products %}
+{% for product in collection.products limit : 4%}
 {% endfor %}
 ```
 
