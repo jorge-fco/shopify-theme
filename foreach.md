@@ -1,4 +1,4 @@
-For.
+Foreach.
 ```html
 {% for product in collection.products %}
   <article role="item">
@@ -16,9 +16,26 @@ Limit.
 {% endfor %}
 ```
 
-Loop.
+**Loop.**
 ```html
 {% for product in collection.products %}
+  <article data-num="{{forloop.index}}">
+     <h4>{{product.title}}</h4>
+  </article>
+{% endfor %}
+```
+
+```html
+{% for product in collection.products %}
+  {% if %}
+  <article data-num="{{forloop.index}}">
+     <h4>{{product.title}}</h4>
+  </article>
+  {% else %}
+     <article data-num="{{forloop.index}}">
+      <h4>{{product.title}}</h4>
+     </article>
+  {% endif %}
 {% endfor %}
 ```
 
