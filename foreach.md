@@ -27,14 +27,14 @@ Limit.
 
 ```html
 {% for product in collection.products %}
-  {% if %}
-  <article data-num="{{forloop.index}}">
-     <h4>{{product.title}}</h4>
-  </article>
+  {% if forloop.index==1 %}
+      <article data-num="{{forloop.index}}">
+          <h4>{{product.title}}</h4>
+      </article>
   {% else %}
-     <article data-num="{{forloop.index}}">
-      <h4>{{product.title}}</h4>
-     </article>
+      <article data-num="{{forloop.index}}">
+          <h4>{{product.title}}</h4>
+      </article>
   {% endif %}
 {% endfor %}
 ```
