@@ -1,32 +1,40 @@
-Foreach.
+**Foreach.**
 ```html
+
 {% for product in collection.products %}
   <article role="item">
     <h4>{{product.title}}</h4>
   </article>
 {% endfor %}
+
 ```
 
-Limit.
+**Limit.**
 ```html
+
 {% for product in collection.products limit : 4%}
   <article>
     <h4>{{product.title}}</h4>
   </article>
 {% endfor %}
+
 ```
 
 **Loop.**
 ```html
+
 {% for product in collection.products %}
   <article data-num="{{forloop.index}}">
      <h4>{{product.title}}</h4>
   </article>
 {% endfor %}
+
 ```
 
 ```html
+
 {% for product in collection.products %}
+
   {% if forloop.index==1 %}
       <article data-num="{{forloop.index}}">
           <h4>{{product.title}}</h4>
@@ -37,10 +45,14 @@ Limit.
       </article>
   {% endif %}
 {% endfor %}
+
 ```
 
-Increment.
+**Increment.**
 ```html
+
 {% for product in collection.products %}
+  
 {% endfor %}
+
 ```
