@@ -1,7 +1,9 @@
 For.
 ```html
 {% for product in collection.products %}
-  <h4>{{product.title}}</h4>
+  <article role="item">
+    <h4>{{product.title}}</h4>
+  </article>
 {% endfor %}
 ```
 
