@@ -16,3 +16,10 @@
 ```
 <data>{{ product.price | money_with_currency }}</data>
 ```
+
+**Collection.**
+```
+{% for collection in product.collections limit : 1%}
+    {{ colection.title }}
+{% endfor %}
+```
