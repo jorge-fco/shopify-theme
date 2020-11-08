@@ -31,6 +31,7 @@
 
 ```
 
+**Loop and if**
 ```html
 
 {% for product in collection.products %}
@@ -43,6 +44,21 @@
       <article data-num="{{forloop.index}}">
           <h4>{{product.title}}</h4>
       </article>
+  {% endif %}
+{% endfor %}
+
+```
+
+**Break.**
+```html
+
+{% for product in collection.products %}
+
+  {% if forloop.index==1 %}
+      <article data-num="{{forloop.index}}">
+          <h4>{{product.title}}</h4>
+      </article>
+      {% break %}
   {% endif %}
 {% endfor %}
 
