@@ -14,9 +14,8 @@
 
 **Shopify liquid** (https://shopify.github.io/liquid/)
 
-
-https://shopify.dev/themes/architecture/settings/input-settings
-
+### Sections
+[Input settings](https://shopify.dev/themes/architecture/settings/input-settings)
 
 **Features // Dashboard.**
 * Online Store: Our drag-and-drop store builder lets merchants set up their store in minutes
