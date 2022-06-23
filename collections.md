@@ -13,7 +13,10 @@ Image.
 ```
  
 ### Listado de colecciones.
-
+```
+{%- for product in collection.all_products -%}
+{%- endfor -%}
+```
 **Products collection**
 ```html
 {% for product in collection.products %}
