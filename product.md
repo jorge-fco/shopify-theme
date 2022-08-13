@@ -23,3 +23,12 @@
     {{ colection.title }}
 {% endfor %}
 ```
+
+**Metafields*
+```
+{% assign list_products = product.metafields.custom.list_products.value %}
+
+{% for product in list_products %}
+   {{ product.title }} 
+{% endfor %}
+```
