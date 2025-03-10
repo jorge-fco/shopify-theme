@@ -19,8 +19,15 @@
 
 **Collection.**
 ```
-{% for collection in product.collections limit : 1%}
+{% for collection in product.collections limit : 1 %}
     {{ colection.title }}
+{% endfor %}
+
+{% for collection in product.collections limit : 1 %}
+    {% assign current = collection.title | handle %}
+    {% if current != 'todos' %}
+        {{ colection.title }}
+    {% endif %}
 {% endfor %}
 ```
 
