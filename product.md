@@ -31,7 +31,9 @@
 {% endfor %}
 ```
 
-**Metafields*
+**Related products**
+
+**Metafields**
 ```
 {% assign list_products = product.metafields.custom.list_products.value %}
 
