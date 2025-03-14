@@ -7,6 +7,12 @@ Title
 <p>{{ collection.description }}</p>
 ```
 
+{% for tag in collection.all_tags %}
+{% assign current = tag %}
+{{ collection.url }}/{{ tag | handle }}
+<span>{{ tag }}</span>
+{% endfor %}
+
 Image.
 ```html
 <img  itemprop="image" alt="{{shop.url}}" class="lazyload" data-src="{{ collection.image | img_url: '800x800' }}">
