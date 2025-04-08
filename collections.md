@@ -1,17 +1,20 @@
 # Collections
 
 ### Object
-Title
+#### Title
 ```html
 <h4>{{ collection.title }}</h4>
 <p>{{ collection.description }}</p>
 ```
 
+#### Tags
+```html
 {% for tag in collection.all_tags %}
 {% assign current = tag %}
 {{ collection.url }}/{{ tag | handle }}
 <span>{{ tag }}</span>
 {% endfor %}
+```
 
 Image.
 ```html
