@@ -1,10 +1,14 @@
 # Collections
-
-### Object
 #### Title
 ```html
 <h4>{{ collection.title }}</h4>
 <p>{{ collection.description }}</p>
+```
+
+#### Collections
+```html
+{% for collection in collections %}
+{% endfor %}
 ```
 
 #### Tags
