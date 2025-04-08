@@ -11,6 +11,18 @@
 {% endfor %}
 ```
 
+#### Products in collection
+```html
+{% for product in collection.products %}
+  <article>
+    <p>{{ product.type }}</p>
+    <h4>{{ product.title }}</h4>
+    
+    <a href="{{ product.url }}" role="button">Comprar</a>
+  </article>
+{% endfor %}
+```
+
 #### Tags
 ```html
 {% for tag in collection.all_tags %}
@@ -29,15 +41,6 @@ Image.
 ```
 {%- for product in collection.all_products -%}
 {%- endfor -%}
-```
-**Products collection**
-```html
-{% for product in collection.products %}
-<article>
-  <h4>{{product.title}}</h4>
-  <a href="{{product.url}}">Ver</a>
-</article>
-{% endfor %}
 ```
 
 **Thumb image**
