@@ -1,21 +1,24 @@
 # Product
 
-**Images.**
+#### Images
 ```
 {% for image in product.images %}
-    <img src="{{ image.src | product_img_url: 'large' }}">
+    <img src="{{ image.src | img_url }}">
 {% endfor %}
 ```
 
-**Description.**
+#### Description
 ```
-<p>{{product.content}}</p>
+<p>{{ product.content }}</p>
 ```
 
-**Price.**
+#### Price
 ```
 <data>{{ product.price | money_with_currency }}</data>
 ```
+
+#### Variants
+
 
 **Collection.**
 ```
