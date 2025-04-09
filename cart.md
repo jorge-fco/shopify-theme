@@ -9,6 +9,12 @@
 {% endif %}
 ```
 
+#### Each
+```html
+{% for item in cart.items %}
+{% endfor %}
+```
+
 **Cart items**
 
 Cantidad.
