@@ -1,5 +1,14 @@
 # Cart.
 
+#### Empty
+```html
+{% if cart.item_count > 0 %}
+  //
+{% else %}
+  //
+{% endif %}
+```
+
 **Cart items**
 
 Cantidad.
