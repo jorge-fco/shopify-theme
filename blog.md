@@ -1,10 +1,17 @@
 # Blog.
 
-**Items**
+#### Each > Items
 ```liquid
 {% for article in blog.articles %}
+  {% assign image = article.image | image_url %}
+  
   <h4>{{ article.title }}</h4>
-  {{ article.url }}
+  <time>{{ article.author }}, {{ article.published_at | time_tag: format: 'date' }}</time>
+  <p>{{ article.excerpt }}</p>
+
+  <a href="{{ article.url }}">
+    Leer post
+  </a>
 {% endfor %}
 ```
 
